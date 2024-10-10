@@ -1,0 +1,19 @@
+<project name="library" default="main">
+    <target name="main" depends="checkin,checkout,catalogue">
+        <echo message="Welcome to the Library Management System" />
+        <echo message="Name: Vaishnavi Kumbhar, Div: D10B, Roll No: 31, Branch: INFT" />
+        <echo message="Thank you for using the Library Management System!" />
+    </target>
+
+    <target name="checkin">
+        <echo message="Welcome to the Check-in Section" />
+    </target>
+
+    <target name="checkout">
+        <echo message="Welcome to the Check-out Section" />
+    </target>
+
+    <target name="catalogue">
+        <echo message="Welcome to the Library Catalogue" />
+    </target>
+</project>
